@@ -1,0 +1,12 @@
+.form {
+    width: 100%;
+    max-width: 40rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+
+    &__element {
+        display: flex;
+        gap: 0.5rem;
+        margin-top: 1rem;
+    }
+}
