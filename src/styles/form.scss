@@ -4,9 +4,36 @@
     font-size: 1.6rem;
     font-weight: 500;
 
-    &__element {
+    &__wrapper {
         display: flex;
-        gap: 0.5rem;
-        margin-top: 1rem;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1.5rem;
+    }
+
+    &__label {
+        flex: 1;
+        text-align: end;
+    }
+
+    &__field {
+        flex: 2;
+        min-height: 3rem;
+        margin-left: 0.5rem;
+
+        .server-port-input {
+            max-width: 6rem;
+            margin-right: 1rem;
+        }
+
+        .use-ssl-input {
+            margin-right: 0.5rem;
+        }
+
+    }
+
+    &__button {
+        display: block;
+        margin-left: auto;
     }
 }
